@@ -19,6 +19,16 @@ Responsável por:
 - Deploy na Render
 
 ---
+##💎 Extras implementados
+
+🔊 Suporte a múltiplos falantes (médico/paciente)
+🌎 Suporte a múltiplos idiomas (PT/EN)
+🧾 Estrutura pronta para geração de receita em PDF (usada pelo frontend)
+🩺 Personalização por especialidade médica (influencia a resposta da IA)
+🛜 Projeto Publicado
+
+Repositório do **Front-end**
+<a href="https://github.com/rodolfossilvadev/medic-copilot-frontend" target="_blank">Clique aqui</a> para acessar o repositório
 
 ## 🚀 Como rodar localmente
 
@@ -62,14 +72,5 @@ diagnóstico provável
 doenças associadas
 exames sugeridos
 medicamentos comuns
-
-💎 Extras implementados
-
-🔊 Suporte a múltiplos falantes (médico/paciente)
-🌎 Suporte a múltiplos idiomas (PT/EN)
-🧾 Estrutura pronta para geração de receita em PDF (usada pelo frontend)
-🩺 Personalização por especialidade médica (influencia a resposta da IA)
-🛜 Projeto Publicado
 ```
-Repositório do **Front-end**
-<a href="https://github.com/rodolfossilvadev/medic-copilot-frontend" target="_blank">Clique aqui</a> para acessar o repositório
+
