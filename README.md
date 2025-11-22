@@ -1,10 +1,10 @@
 # 💉 MedNote.IA – Médico Copilot (Backend)
 
-Backend em **Node.js + TypeScript** para o desafio **“Médico Copilot”**.  
+Backend em **Node.js + TypeScript**.  
 Responsável por:
 
 - 🎙️ Receber áudio ou texto da consulta
-- 🗣️ Transcrever e identificar falantes (médico/paciente)
+- 🗣️ Transcrever e identificar falas (médico/paciente)
 - 🧠 Gerar diagnóstico estruturado com IA (doenças, exames, medicamentos)
 
 ---
@@ -45,32 +45,28 @@ OPENAI_API_KEY=sk-...      # chave da OpenAI
 FRONTEND_URL=http://localhost:5173  # ou URL da Vercel em produção
 OPENAI_DIAGNOSE_MODEL=gpt-4o-mini   # opcional
 OPENAI_TRANSCRIBE_MODEL=whisper-1   # opcional
+
 🌐 Endpoints
 POST /api/transcribe
-Descrição: recebe áudio e retorna a transcrição (com idioma detectado e, quando possível, falantes separados).
+Descrição: recebe áudio e retorna a transcrição 
 
 Body: multipart/form-data
-
+Idioma
+Falas separadas
 campo do arquivo: file (ex.: .webm vindo do navegador)
 
 POST /api/diagnose
 Descrição: recebe o texto completo da consulta e devolve um objeto com:
 
 diagnóstico provável
-
 doenças associadas
-
 exames sugeridos
-
 medicamentos comuns
 
-Body (JSON): campos como transcription, language, patientName, doctorSpecialty (ver contrato no frontend).
-
 💎 Extras implementados (relacionados ao backend)
+
 🔊 Suporte a múltiplos falantes (médico/paciente)
-
 🌎 Suporte a múltiplos idiomas (PT/EN)
-
 🧾 Estrutura pronta para geração de receita em PDF (usada pelo frontend)
-
 🩺 Personalização por especialidade médica (influencia a resposta da IA)
+🛜 Projeto Publicado
