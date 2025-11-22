@@ -19,7 +19,7 @@ Responsável por:
 - Deploy na Render
 
 ---
-##💎 Extras implementados
+## 💎 Extras implementados
 
 🔊 Suporte a múltiplos falantes (médico/paciente)
 🌎 Suporte a múltiplos idiomas (PT/EN)
