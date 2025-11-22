@@ -1,4 +1,4 @@
-# 💉 MedNote.IA – Médico Copilot (Backend)
+# 💉 Médico Copilot (Backend)
 
 Backend em **Node.js + TypeScript**.  
 Responsável por:
